@@ -15,7 +15,7 @@ public class DemoApplication implements CommandLineRunner {
 	
 	private final ArticleRepo articleRepo;
 	
-	@Autowired
+	//@Autowired
 	public DemoApplication(ArticleRepo articleRepo) {
 		this.articleRepo = articleRepo;
 	}
